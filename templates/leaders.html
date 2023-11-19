@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Club Calendar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+    <script src="{{url_for('static', filename='db.js')}}"></script>
+    <script>
+        get('leaders');
+    </script>
+</head>
+  <body style="background-color: #212529;">
+    
+    <nav style="padding: 1em; border-radius: 1em; margin: 0.5em;" class="navbar navbar-expand-lg bg-body-tertiary"  data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ url_for('index') }}">
+                <img src="assets/speechanddebate.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                MRHS Speech and Debate
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav nav-underline">
+
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('calendar') }}">Calendar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{ url_for('leaders') }}">Leaders</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('pfinfo') }}">Public Forum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('speech') }}">Speech</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('ldinfo') }}">Lincoln-Douglas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('congress') }}">Congress</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('clubinfo') }}">About Club</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <h1 style="color: white; display: flex; justify-content: center;">Club Leadership</h1>
+      <div id="leadercontent" style="display: flex; justify-content: center;" data-bs-theme="dark">
+        <div class="card text-bg-dark" style="width: 18rem; margin:2rem">
+            <div class="card-header" style="font-size: 2rem;">
+            Public Forum
+            </div>
+            <ul class="list-group list-group-flush" id="pfleaders">
+                <div class="card-header">
+                    <b>Captain</b>
+                    </div>
+                <ul class="list-group list-group-flush" id="debate_captain">
+                    
+                </ul>
+                <div class="card-header">
+                    <b>Officer</b>
+                    </div>
+                <ul class="list-group list-group-flush" id="debate_officer">
+    
+                  </ul>
+                <div class="card-header">
+                    <b>Board</b>
+                    </div>
+                <ul class="list-group list-group-flush" id="debate_board">
+    
+                  </ul>
+            </ul>
+        </div>
+        <div class="card text-bg-dark" style="width: 18rem; margin:2rem">
+            <div class="card-header" style="font-size: 2rem;">
+            Speech
+            </div>
+            <ul class="list-group list-group-flush" id="speechleaders">
+                <div class="card-header">
+                    <b>Captain</b>
+                    </div>
+                <ul class="list-group list-group-flush" id="speech_captain">
+                    
+                </ul>
+                <div class="card-header">
+                    <b>Officer</b>
+                    </div>
+                <ul class="list-group list-group-flush" id="speech_officer">
+    
+                  </ul>
+                <div class="card-header">
+                    <b>Board</b>
+                    </div>
+                <ul class="list-group list-group-flush" id="speech_board">
+    
+                  </ul>
+            </ul>
+        </div>
+        <div class="card text-bg-dark" style="width: 18rem; margin:2rem">
+            <div class="card-header" style="font-size: 2rem;">
+            Other
+            </div>
+            <ul class="list-group list-group-flush" id="otherleaders">
+                <div class="card-header">
+                    <b>Team Manager</b>
+                    </div>
+                <ul class="list-group list-group-flush" id="team_manager">
+                    
+                </ul>
+                <div class="card-header">
+                    <b>Web Development</b>
+                    </div>
+                <ul class="list-group list-group-flush" id="web_developer">
+    
+                  </ul>
+                <div class="card-header">
+                    <b>Other</b>
+                    </div>
+                <ul class="list-group list-group-flush" id="other">
+    
+                  </ul>
+            </ul>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

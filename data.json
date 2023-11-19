@@ -1,0 +1,80 @@
+{
+    "events": {
+        "BCFL 2": {
+            "address": "8102 Lasalle Rd, Towson, MD 21286.",
+            "day": 28,
+            "description": "BCFL 2 at Calvert Hall",
+            "location": "Calvert Hall",
+            "month": 10,
+            "name": "BCFL 2",
+            "year": 2023
+        },
+        "GMU 2023": {
+            "address": "4400 University Dr, Fairfax, VA 22030 ",
+            "day": 2,
+            "description": "14th annual patriot games at gmu",
+            "location": "George Mason University",
+            "month": 12,
+            "name": "GMU 2023",
+            "year": 2023
+        }
+    },
+    "leaders": {
+        "Audrey Gruitzik": {
+            "name": "Audrey Gruitzik",
+            "position": "debate_captain"
+        },
+        "Cici Huang": {
+            "name": "Cici Huang",
+            "position": "debate_officer"
+        },
+        "Firstname Lastname": {
+            "name": "Firstname Lastname",
+            "position": "speech_officer"
+        },
+        "Hailey Kim": {
+            "name": "Hailey Kim",
+            "position": "team_manager"
+        },
+        "Nathan Lee": {
+            "name": "Nathan Lee",
+            "position": "speech_captain"
+        },
+        "Prakruth Aachar": {
+            "name": "Prakruth Aachar",
+            "position": "debate_officer"
+        },
+        "Soha Mahapatra": {
+            "name": "Soha Mahapatra",
+            "position": "debate_officer"
+        },
+        "Tanvi Potukanuma": {
+            "name": "Tanvi Potukanuma",
+            "position": "speech_captain"
+        },
+        "Vardaan Srivastava": {
+            "name": "Vardaan Srivastava",
+            "position": "debate_captain"
+        },
+        "Varun Sammeta": {
+            "name": "Varun Sammeta",
+            "position": "web_developer"
+        },
+        "ab": {
+            "name": "ab",
+            "position": "debate_board"
+        },
+        "cd": {
+            "name": "cd",
+            "position": "speech_officer"
+        },
+        "ef": {
+            "name": "ef",
+            "position": "speech_board"
+        },
+        "gh": {
+            "name": "gh",
+            "position": "other"
+        }
+    }
+}
