@@ -1,13 +1,13 @@
 {
     "events": {
-        "BCFL 2": {
-            "address": "8102 Lasalle Rd, Towson, MD 21286.",
-            "day": 28,
-            "description": "BCFL 2 at Calvert Hall",
-            "location": "Calvert Hall",
-            "month": 10,
-            "name": "BCFL 2",
-            "year": 2023
+        "BCFL 6": {
+            "address": "[towson hs address here]",
+            "day": 3,
+            "description": "BCFL 6 at Towson High School",
+            "location": "Towson High School",
+            "month": 2,
+            "name": "BCFL 6",
+            "year": 2024
         },
         "GMU 2023": {
             "address": "4400 University Dr, Fairfax, VA 22030 ",
@@ -17,11 +17,22 @@
             "month": 12,
             "name": "GMU 2023",
             "year": 2023
+        },
+        "BCFL 2": {
+            "address": "8102 Lasalle Rd, Towson, MD 21286.",
+            "day": 28,
+            "description": "BCFL 2 at Calvert Hall",
+            "location": "Calvert Hall",
+            "month": 10,
+            "name": "BCFL 2",
+            "year": 2023
         }
+        
+        
     },
     "leaders": {
         "Audrey Gruitzik": {
-            "name": "Audrey Gruitzik",
+            "name": "Audrey Grutzik",
             "position": "debate_captain"
         },
         "Cici Huang": {
