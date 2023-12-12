@@ -36,12 +36,12 @@ function get(category){
             Object.entries(jsonData.leaders).forEach(([key, value]) => {
                 var elementIdToGet = value.position;
                 var newLeaderListItem = document.createElement("li")
-                newLeaderListItem.className = "list-group-item"
+                newLeaderListItem.className = "list-group-item text-bg-dark"
                 newLeaderListItem.innerHTML = value.name;
                 document.getElementById(elementIdToGet).appendChild(newLeaderListItem)
             });
         } else {
-            //thank sai for this stuff below:)
+            //thank sai for this stuff below :)
             throw { 
                 name:        "Invalid Category", 
                 level:       "AMONGUS level threat!!11!!1", 
@@ -183,15 +183,15 @@ function verifyDate(day, month){
        month == 10 ||
        month == 12
     ){
-        if(day > 31){return false}
+        if(day > 31)return false
     } 
     //checks for violations in february
     else if (month ==2){
-        if(day>28) {return false;}
+        if(day>28) return false;
     }
     //checks for violations in 30-day months
     else {
-        if (day > 30) {return false;}
+        if (day > 30) return false;
     }
 
     //if it hasnt been returned yet, its probably a valid date and month combination
