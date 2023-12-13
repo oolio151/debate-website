@@ -3,14 +3,23 @@
         "BCFL 6": {
             "address": "[towson hs address here]",
             "day": 3,
-            "description": "BCFL 6 at Towson High School",
+            "description": "BCFL 6 at Towson High School, last chance to get into metros!",
             "location": "Towson High School",
             "month": 2,
             "name": "BCFL 6",
             "year": 2024
         },
+        "BCFL 5":{
+            "address": "[baltimore city college address here]",
+            "day" : 20,
+            "description": "BCFL 5 at Baltimore City College",
+            "location": "Baltimore City College",
+            "month": 1,
+            "name": "BCFL 5",
+            "year": 2024
+        },
         "GMU 2023": {
-            "address": "4400 University Dr, Fairfax, VA 22030 ",
+            "address": "4400 University Dr, Fairfax, VA 22030",
             "day": 2,
             "description": "14th annual patriot games at gmu",
             "location": "George Mason University",
@@ -19,7 +28,7 @@
             "year": 2023
         },
         "BCFL 2": {
-            "address": "8102 Lasalle Rd, Towson, MD 21286.",
+            "address": "8102 Lasalle Rd, Towson, MD 21286",
             "day": 28,
             "description": "BCFL 2 at Calvert Hall",
             "location": "Calvert Hall",
