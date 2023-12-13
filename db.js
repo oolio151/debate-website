@@ -73,7 +73,7 @@ function createNewCalendarCard(name, month, day, year, description, location, ad
     var outerDiv = document.createElement("div")
     if(datePassed) outerDiv.className = "card text-center border-secondary text-bg-dark mb-3";
     else outerDiv.className = "card text-center border-light text-bg-dark mb-3";
-    outerDiv.style = "margin-left: 5em; margin-right: 5em; color: red;"
+    outerDiv.style = "color: red;"
     document.getElementById("calendarrow").appendChild(outerDiv);
 
     //create the card header that shows the date
