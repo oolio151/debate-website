@@ -18,6 +18,24 @@
             "name": "BCFL 5",
             "year": 2024
         },
+        "BCFL 4":{
+            "address": "[reservoir high school address here]",
+            "day" : 16,
+            "description": "BCFL 4 at Reservoir",
+            "location": "Reservoir High School",
+            "month": 12,
+            "name": "BCFL 4",
+            "year": 2023
+        },
+        "BCFL 3":{
+            "address": "[arundel address here]",
+            "day" : 22,
+            "description": "BCFL 3 at Arundel High School",
+            "location": "Arundel High School",
+            "month": 11,
+            "name": "BCFL 3",
+            "year": 2023
+        },
         "GMU 2023": {
             "address": "4400 University Dr, Fairfax, VA 22030",
             "day": 2,
